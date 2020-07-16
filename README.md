@@ -1,7 +1,7 @@
 # pdf-watermark-pwd
 给合同盖尾章及骑缝章、设置密码等，目前仅支持对pdf文件进行盖章，尾章具体位置可能需要按实际情况进行调整;
 
-# 参数说明
+# Params
 ```php
 // TO ADD WATERMARK
 $config = array();
@@ -28,5 +28,5 @@ $doResut = $dmPdfWatermark->addPwd($params);
 $pwd_path = isset($doResut['path']) ? $doResut['path'] : '';
 ```
 
-# 测试
+# Test
 test.php
