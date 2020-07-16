@@ -22,7 +22,7 @@ $watermark_path = isset($doResut['path']) ? $doResut['path'] : '';
 $params = array();
 $params['filename'] = $watermark_path;
 $params['output_filename'] = 'order-output-pwd.pdf'; // 盖章之后输出的文件名(不含目录)
-$params['pwd'] = '123456';
+$params['pwd'] = '123456'; // 设置默认密码
 $doResut = $dmPdfWatermark->addPwd($params);
 // 加密文件完整目录
 $pwd_path = isset($doResut['path']) ? $doResut['path'] : '';
