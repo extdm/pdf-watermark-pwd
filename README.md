@@ -2,6 +2,7 @@
 给合同盖尾章及骑缝章、设置密码等，目前仅支持对pdf文件进行盖章，尾章具体位置可能需要按实际情况进行调整;
 
 # 参数说明
+```php
 // TO ADD WATERMARK
 $config = array();
 $config['company'] = 'company'; // 公司名称
@@ -25,7 +26,7 @@ $params['pwd'] = '123456';
 $doResut = $dmPdfWatermark->addPwd($params);
 // 加密文件完整目录
 $pwd_path = isset($doResut['path']) ? $doResut['path'] : '';
-
+```
 
 # 测试
 test.php
