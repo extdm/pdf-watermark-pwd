@@ -18,7 +18,7 @@ $doResut = $dmPdfWatermark->addWatermark();
 // 盖章文件完整目录
 $watermark_path = isset($doResut['path']) ? $doResut['path'] : ''; 
 
-## 此处可扩展：盖章PDF文件内页转成图片功能正在测试中，让其更像打印扫描件...
+// 此处可扩展：盖章PDF文件内页转成图片功能正在测试中，让其更像打印扫描件...
 
 // TO ADD PWD 给PDF文件设置密码(加密，不可复制，保护文件)
 $params = array();
